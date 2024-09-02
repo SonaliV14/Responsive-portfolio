@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style3.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header>
+        <i id="menu" class="bx bx-menu"></i>
+        <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+<!--------------------------------Home section------------------------------------>
+
+    <section class="home" id="home">
+        <img src="stars.png" id="stars">
+        <div class="home-img">
+            <img id="picture" src="pic2.jpg" alt="">
+        </div>
+        <div class="home-content" id="text">
+            <h3>Hello,  Its' me</h3>
+            <h1>Sonali Varshney</h1>
+            <h3 class="txt"> I'm a <span></span></h3>
+        </div>
+        <div class="social-icon-container" id="social">
+            <div class="social-icon">
+                <a href="www.linkedin.com/in/sonali-varshney-507041312"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class='bx bxl-gmail'></i></a>
+                <a href="https://www.instagram.com/sonali.v14/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        
+        <button id="btn">Resume</button>
+        
+    </section>
+    
+<!-----------------------About Me section--------------------->
+
+    <section class="about" id="about">
+        <div class="about-sec" id="about-sec">
+            <div class="about-sec-content">
+                <h1>About<span style="color: aqua;"> Me</span></h1>
+                <input type="checkbox" class="read-more-state" id="post-1" />
+                <p class="read-more-wrap">
+                    I am a dedicated and enthusiastic Computer Science student currently pursuing a Bachelors in Computer Applications at the esteemed Aligarh Muslim University. With a solid foundation in computer science principles and a growing proficiency in programming languages such as Java and Python, I am passionate about leveraging technology to innovate and drive progress in various fields.
+                </p><br>
+                <span class="read-more-target">
+                    In web development, I am a master of my craft, with a deep understanding of the intricacies of building scalable, efficient, and visually stunning web applications. With expertise in HTML, CSS, JavaScript, and a range of frameworks and libraries, I can craft bespoke solutions that meet the most demanding requirements. I take pride in staying up-to-date with current design trends and leveraging my creativity to produce visually appealing and user friendly websites.<br>
+                    With a keen analytical mind and a passion for problem-solving, I excel in data structures and algorithms, where I can apply my skills to develop innovative solutions that drive results. I possess a deep understanding of the theoretical foundations of DSA, and I'm well-versed in languages such as Java and Python.<br>
+                    My communication skills, coupled with my ability to distill complex concepts into clear, concise language, make me an invaluable asset to any team. I am hardworking, detail-oriented and continuously seek opportunities to expand my knowledge and take on new challenges.
+                </span>
+                <label class="button" for="post-1"><a href="#" id="read-more-link">Read More</a></label>
+            </div>
+        </div>
+    </section>
+
+<!----------------------------Skills section ------------------------------------>
+
+    <section class="skills" id="skills">
+        <div class="skills-content">
+            <h1>My<span style="color: aqua;"> Skills</span></h1>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">HTML5<i style="color: red; font-size: 1.4em;" class='bx bxl-html5'></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 99%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">99%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">CSS  <i style="color: green; font-size: 1.6em"class='bx bxl-css3'></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 90%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">90%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">JS   <i style="color: gold; font-size: 1.6em" class='bx bxl-javascript' ></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 70%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">PHP  <i style="color: rgb(84, 84, 146); font-size: 1.6em" class='bx bxl-php' ></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 75%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">75%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">Java<i style="color: skyblue; font-size: 1.6em" class='bx bxl-java' ></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 80%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">80%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">Python <i style="color: gold; font-size: 1.6em" class='bx bxl-python' ></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 70%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="progressbar-container">
+                <div class="progressbar-values">
+                    <span class="progress-head">MySQL <i style="color:red" class='bx bxs-data'></i></span>
+                    <div class="progressbar-wrapper">
+                        <div class="progressbar">
+                            <span class="progress" style="width: 60%;">
+                                <span class="thumb"></span>
+                            </span>
+                        </div>
+                        <span class="percent">60%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skills-content-2">
+            <h3 style="color: white; font-size:1.6em">Other Technical Skills-</h3>
+            <div class="skills-content-2-list">
+                <ul type="dot">
+                    <li>Basic Knowledge of computers</li>
+                    <li>Databse Management System</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Windows, MS Office, MS Word, MS Excel, MS PowerPoint</li>
+                    <li>Operating Systems</li>
+                    <li>Computer Networks</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <!---------------------Education Section--------------------->
+    
+    <section class="education" id="education">
+        <div class="education-head">
+            <h2>My <span style="color: #0ef;">Education</span></h2>
+        </div>
+        <div class="container">
+            <div class="timeline-block timeline-block-right">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>Web Development Internship</h3>
+                  <span>Unified Mentor</span>
+                  <p>Currently, I'm working as a Web Development intern in Unified Mentor Pvt. Ltd. for 2 months w.e.f. 15-07-24 to 15-09-24, where I'll be working on 3 amazing industry based web development projects  </p>
+               </div>
+            </div>
+         
+            <div class="timeline-block timeline-block-left">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>Masters in Computer Applications</h3>
+                  <span>Aligarh Muslim University</span>
+                  <p>Currently I'm pursuing Masters in Computer Applications from the Aligarh Muslim University itself </p>
+               </div>
+            </div>
+         
+            <div class="timeline-block timeline-block-right">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>B.Sc.(Hons.) in Computer Applications</h3>
+                  <span>Aligarh Muslim University</span>
+                  <p>I've completed my undergraduation in Bachelors of Science in Computer Applications from Aligarh Muslim University and passed in first division. I was also the part of Computer Science Society during my graduation period</p>
+               </div>
+            </div>
+         
+            <div class="timeline-block timeline-block-left">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>Senior Seconday Schooling</h3>
+                  <span>AMU Girls' School, Aligarh</span>
+                  <p>I've completed my intermediate schooling from AMU Girls' School and secured 86.4% in my senior secondary examinations</p>
+               </div>
+            </div>
+         
+            <div class="timeline-block timeline-block-right">
+               <div class="marker"></div>
+               <div class="timeline-content">
+                  <h3>Highschool</h3>
+                  <span>D.S.B.M. Sr. Sec. School, Aligarh</span>
+                  <p>I have completed my class 10th from Dharam Samaj Bal Mandir Sr. Sec. School, Aligarh affiliated to CBSE board and secured 95.8%</p>
+               </div>
+            </div>
+         </div>
+    </section>
+    <!---------------------Services Section--------------->
+    <section class="projects-sec" id="projects">
+        <div class="projects-content">
+            <h2>My <span style="color:#0ef;">Projects</span></h2>
+        </div>
+        <div class="project-list">
+            <div class="project">
+                <img src="usap.png" alt="project-1">
+                <div class="layer">
+                    <h3>University Subject Allocator Portal</h3>
+                    <p>A web application governed by univerities for the allocation of Minor, Generic, VAC and VOC subjects using HTML, CSS, Javascript, PHP and MySQL.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="portfolio.png" alt="project-2">
+                <div class="layer">
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive personal portfolio website using HTML, CSS and Javascript.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="insta-clone.png" alt="project-3">
+                <div class="layer">
+                    <h3>Instagram Clone</h3>
+                    <p>A clone of Instagram User Interface using HTML, CSS and Javscript.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-----------------------Contact-Me section------------------------------>
+
+    <section class="contact-sec" id=contact>
+        <div class="contact-content">
+            <div class="contact-content-div">
+              <div class="info">
+                <h2>Contact <span style="color: #0ef;">Me</span></h2>
+                <p class="contact-message">
+                    Interested in working together or just want to chat? Send me a message and I'll be happy to connect with you.
+                </p>
+                <p class="contact-para">
+                    <i class='bx bxl-gmail'></i> sonalivarshney1404@gmail.com <br>
+                    <i class='bx bx-phone' ></i> +91XXXXXXXXXX
+                </p>
+                <div class="contact-icons-container">
+                    <div class="contact-icons">
+                        <a href="www.linkedin.com/in/sonali-varshney-507041312"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class='bx bxl-gmail'></i></a>
+                        <a href="https://www.instagram.com/sonali.v14/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+              </div>
+              <form class="contact-form">
+                <label>Name *</label>
+                <input type="text" name="Name" placeholder="Your Name">
+                <label>Email Adress *</label>
+                <input type="email" name="Email Adress" placeholder="Your Email Adress">
+                <label>Message *</label>
+                <textarea name="Message" rows="6" cols="80" placeholder="Your Message"></textarea>
+                <button id="contact-btn">Send</button>
+              </form>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------Footer------------------>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="company-name">
+                Sonali Varshney &copy; 2024, ALL Rights Reserved
+            </p>
+        </div>
+    </footer>
+    <script src="script2.js"></script>
+</body>
+</html> 
+
